@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from Model.My_Model.Swin_Transformer import BasicLayer
+from Swin_Transformer import BasicLayer
 from torch.nn import functional as F
 from torchsummary import summary
 from thop import profile, clever_format
